@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color: rgba(1, 0, 2, 0.973);
+    display: flex;
+    justify-content:baseline;
+    align-items: center;
+    height: 56px;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+}
+div .logo{
+    padding: 100px;
+}
+nav li a {
+    text-decoration: none;
+    color: rgb(235, 80, 80);
+    padding: 10px 20px;   
+}
+li a:hover{
+    font-weight: bolder;
+}
+footer{
+    background-color:hsla(0, 46%, 45%, 0.986);
+    display: flex;
+    justify-content: end;
+}
+.inicio__header{
+    background-image: url(../image/paisaje-digital-en-atardecer_2560x1440_xtrafondos.com.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: top;
+}
+main{
+    background-color: rgba(14, 13, 13, 0.938);
+    background-size: cover;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction:flex;
+    justify-content:center;
+}
+header h1{
+    color: white;
+    font-size: 48px;
+}
+.tarjetas{
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    flex-wrap: wrap;
+}  
+.tarjeta{
+    width: 250px;
+    height: 350px;
+    border: 5px solid hsla(0, 50%, 43%, 0.986);
+    border-radius: 10px;
+    margin: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction:column;
+    align-items:center ;
+    gap: 20px;
+}
+.tarjeta__titulo{
+    text-align: start;
+    color: rgb(248, 248, 248);
+}
+.tarjeta__desc{
+    color: rgb(238, 232, 232);
+}
+.tarjeta__img{
+    height: 200px;
+    border-color: blueviolet;
+    border-radius: 201px;
+}
+.btn{
+    padding: 15px;
+    background-color: hsla(0, 46%, 45%, 0.986);
+    color: white;
+    border: none;
+    font-style: none;
+}
+main section div a :hover{
+    font-weight: bolder;
+}
+h2{
+    height: 100px;
+    color: white;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+}
+.p__ubi{
+    color: white;
+    display: flex;
+    font-size:x-large;
+    justify-content: start;
+    padding: 10px;
+}
+.ubicacion__img{
+    width: 500px;
+    height: px;
+    padding-left: 40px;
+    justify-content: center;
+    display: flex;
+}
+form{
+    background-color: azure;
+    background-size: contain;
+    height: 405px;
+    width: 406px;
+    margin: 150px;
+}
+fieldset{
+    width: 300px;
+    height: 400px;
+}
+textarea{
+    height: 200px;
+    width: 400px;
+}
+.main__nosotros{
+    background-color: rgba(14, 13, 13, 0.938);
+    background-size: cover;
+    display: flex;
+    width: 100%;
+    height: 600px;
+    flex-direction:flex;
+    justify-content:center;
+}
+.main__nosotros ul{
+    color: white;
+}
+h1{
+    color: white;
+    font-size: 48px;
+}
+p{
+    color: white;
+    font-size: medium;
+    justify-content: center;
+    padding-top:20px ;
+}
+ul li{
+    list-style: none;
+}
