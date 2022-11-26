@@ -1,0 +1,37 @@
+.tarjetas{
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    flex-wrap: wrap;
+}  
+.tarjeta{
+    width: 250px;
+    height: 350px;
+    border: 5px solid hsla(0, 50%, 43%, 0.986);
+    border-radius: 10px;
+    margin: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction:column;
+    align-items:center ;
+    gap: 20px;
+}
+.tarjeta__titulo{
+    text-align: start;
+    color: rgb(248, 248, 248);
+}
+.tarjeta__desc{
+    color: rgb(238, 232, 232);
+}
+.tarjeta__img{
+    height: 200px;
+    border-color: blueviolet;
+    border-radius: 201px;
+}
+.btn{
+    padding: 15px;
+    background-color: hsla(0, 46%, 45%, 0.986);
+    color: white;
+    border: none;
+    font-style: none;
+}

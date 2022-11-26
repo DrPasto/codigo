@@ -1,0 +1,22 @@
+nav{
+    background-color: rgba(1, 0, 2, 0.973);
+    display: flex;
+    align-items: center;
+    height: 56px;
+    width: 100%;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+}
+div .logo{
+    padding: 100px;
+}
+nav li a {
+    text-decoration: none;
+    color: rgb(235, 80, 80);
+    padding: 10px 20px;   
+}
+li a:hover{
+    font-weight: bolder;
+}

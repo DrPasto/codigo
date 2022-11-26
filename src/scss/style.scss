@@ -1,0 +1,40 @@
+@import "reset";
+@import "navbar";
+@import "footer";
+@import "header";
+@import "main";
+@import "card";
+@import "form";
+
+
+h2{
+    height: 100px;
+    color: white;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+}
+.p__ubi{
+    color: white;
+    display: flex;
+    font-size:x-large;
+    justify-content: start;
+    padding: 10px;
+}
+.ubicacion__img{
+    width: 500px;
+    height: px;
+    padding-left: 40px;
+    justify-content: center;
+    display: flex;
+}
+h1{
+    color: white;
+    font-size: 48px;
+}
+p{
+    color: white;
+    font-size: medium;
+    justify-content: center;
+    padding-top:20px ;
+}

@@ -1,152 +1,175 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
-nav{
-    background-color: rgba(1, 0, 2, 0.973);
-    display: flex;
-    align-items: center;
-    height: 56px;
-    width: 100%;
+
+nav {
+  background-color: rgba(1, 0, 2, 0.973);
+  display: flex;
+  align-items: center;
+  height: 56px;
+  width: 100%;
 }
-nav ul{
-    list-style: none;
-    display: flex;
+
+nav ul {
+  list-style: none;
+  display: flex;
 }
-div .logo{
-    padding: 100px;
+
+div .logo {
+  padding: 100px;
 }
+
 nav li a {
-    text-decoration: none;
-    color: rgb(235, 80, 80);
-    padding: 10px 20px;   
+  text-decoration: none;
+  color: rgb(235, 80, 80);
+  padding: 10px 20px;
 }
-li a:hover{
-    font-weight: bolder;
+
+li a:hover {
+  font-weight: bolder;
 }
-footer{
-    background-color:hsla(0, 46%, 45%, 0.986);
-    display: flex;
-    justify-content: end;
+
+footer {
+  background-color: hsla(0deg, 46%, 45%, 0.986);
+  display: flex;
+  justify-content: end;
 }
-.inicio__header{
-    background-image: url(../image/paisaje-digital-en-atardecer_2560x1440_xtrafondos.com.jpg);
-    background-size: cover;
-    width: 100%;
-    height: 400px;    
+
+.inicio__header {
+  background-image: url(../image/paisaje-digital-en-atardecer_2560x1440_xtrafondos.com.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 400px;
 }
-main{
-    background-color: rgba(14, 13, 13, 0.938);
-    background-size: cover;
-    display: flex;
-    width: 100%;
-    height: 100%;
-    flex-direction:flex;
-    justify-content:center;
+
+header h1 {
+  color: white;
+  font-size: 48px;
+  height: 140px;
 }
-header h1{
-    color: white;
-    font-size: 48px;
-    height: 140px;
+
+main {
+  background-color: rgba(14, 13, 13, 0.938);
+  background-size: cover;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  flex-direction: flex;
+  justify-content: center;
 }
-.tarjetas{
-    display: flex;
-    align-items: center;
-    padding: 15px;
-    flex-wrap: wrap;
-}  
-.tarjeta{
-    width: 250px;
-    height: 350px;
-    border: 5px solid hsla(0, 50%, 43%, 0.986);
-    border-radius: 10px;
-    margin: 10px;
-    padding: 20px;
-    display: flex;
-    flex-direction:column;
-    align-items:center ;
-    gap: 20px;
+
+main section div a :hover {
+  font-weight: bolder;
 }
-.tarjeta__titulo{
-    text-align: start;
-    color: rgb(248, 248, 248);
+
+.main__nosotros {
+  background-color: rgba(14, 13, 13, 0.938);
+  background-size: cover;
+  display: flex;
+  width: 100%;
+  height: 600px;
+  flex-direction: flex;
+  justify-content: center;
 }
-.tarjeta__desc{
-    color: rgb(238, 232, 232);
+
+.main__nosotros ul {
+  color: white;
 }
-.tarjeta__img{
-    height: 200px;
-    border-color: blueviolet;
-    border-radius: 201px;
+
+.tarjetas {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  flex-wrap: wrap;
 }
-.btn{
-    padding: 15px;
-    background-color: hsla(0, 46%, 45%, 0.986);
-    color: white;
-    border: none;
-    font-style: none;
+
+.tarjeta {
+  width: 250px;
+  height: 350px;
+  border: 5px solid hsla(0deg, 50%, 43%, 0.986);
+  border-radius: 10px;
+  margin: 10px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
 }
-main section div a :hover{
-    font-weight: bolder;
+
+.tarjeta__titulo {
+  text-align: start;
+  color: rgb(248, 248, 248);
 }
-h2{
-    height: 100px;
-    color: white;
-    font-size: 50px;
-    display: flex;
-    justify-content: center;
+
+.tarjeta__desc {
+  color: rgb(238, 232, 232);
 }
-.p__ubi{
-    color: white;
-    display: flex;
-    font-size:x-large;
-    justify-content: start;
-    padding: 10px;
+
+.tarjeta__img {
+  height: 200px;
+  border-color: blueviolet;
+  border-radius: 201px;
 }
-.ubicacion__img{
-    width: 500px;
-    height: px;
-    padding-left: 40px;
-    justify-content: center;
-    display: flex;
+
+.btn {
+  padding: 15px;
+  background-color: hsla(0deg, 46%, 45%, 0.986);
+  color: white;
+  border: none;
+  font-style: none;
 }
-form{
-    background-color: azure;
-    background-size: contain;
-    height: 405px;
-    width: 406px;
-    margin: 150px;
+
+form {
+  background-color: azure;
+  background-size: contain;
+  height: 405px;
+  width: 406px;
+  margin: 150px;
 }
-fieldset{
-    width: 300px;
-    height: 400px;
+
+fieldset {
+  width: 300px;
+  height: 400px;
 }
-textarea{
-    height: 200px;
-    width: 400px;
+
+textarea {
+  height: 200px;
+  width: 400px;
 }
-.main__nosotros{
-    background-color: rgba(14, 13, 13, 0.938);
-    background-size: cover;
-    display: flex;
-    width: 100%;
-    height: 600px;
-    flex-direction:flex;
-    justify-content:center;
+
+h2 {
+  height: 100px;
+  color: white;
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
 }
-.main__nosotros ul{
-    color: white;
+
+.p__ubi {
+  color: white;
+  display: flex;
+  font-size: x-large;
+  justify-content: start;
+  padding: 10px;
 }
-h1{
-    color: white;
-    font-size: 48px;
+
+.ubicacion__img {
+  width: 500px;
+  height: px;
+  padding-left: 40px;
+  justify-content: center;
+  display: flex;
 }
-p{
-    color: white;
-    font-size: medium;
-    justify-content: center;
-    padding-top:20px ;
+
+h1 {
+  color: white;
+  font-size: 48px;
 }
-ul li{
-    list-style: none;
+
+p {
+  color: white;
+  font-size: medium;
+  justify-content: center;
+  padding-top: 20px;
 }
