@@ -1,12 +1,15 @@
 .tarjetas{
-    display: flex;
+    display: grid;
+    grid-template-columns: 300px 300px 300px 300px;
+    grid-template-rows: 400px;
+    column-gap: 20px;
+    row-gap: 10px;
     align-items: center;
     padding: 15px;
     flex-wrap: wrap;
 }  
 .tarjeta{
     width: 250px;
-    height: 350px;
     border: 5px solid hsla(0, 50%, 43%, 0.986);
     border-radius: 10px;
     margin: 10px;
